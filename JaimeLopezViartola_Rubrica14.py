@@ -10,7 +10,7 @@ nlineas = 0
 for linea in lines:
     palabras = linea.split()
     for p in palabras:
-       if p==palabra:             
+       if p == palabra:             
            nlineas += 1
 fd.close()
 print "Numero de lineas que sale esa palabra:", nlineas
