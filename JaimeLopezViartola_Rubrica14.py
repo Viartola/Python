@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#-*- coding: utf-8 -*-
 import sys
 print "*************************************************"
 print "*** Buscador de palabras dentro de un archivo ***"
@@ -24,7 +25,7 @@ def insert():
 
 
 def question():
-    question = raw_input("Quieres anadir nueva palabra [s/n]: ")
+    question = raw_input("Quieres añadir nueva palabra [s/n]: ")
     if question == "si" or question == "SI" or question == "S" or question == "s":
          insert()
     elif question == "no" or question == "NO" or question == "N" or question == "n" :
