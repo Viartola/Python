@@ -40,7 +40,7 @@ def question():
         question2()
 
 def question2():
-    question = raw_input("Quieres anadir nueva palabra [s/n]: ")
+    question = raw_input("Quieres añadir nueva palabra [s/n]: ")
     if question == "si" or question == "SI" or question == "S" or question == "s":
          insert()
     elif question == "no" or question == "NO" or question == "N" or question == "n" :

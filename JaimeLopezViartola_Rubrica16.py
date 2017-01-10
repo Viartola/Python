@@ -14,7 +14,7 @@ birthday = datetime.strptime(date, '%d/%m/%Y')
 	
 numberDays = (datetime.utcnow() - birthday).days
 
-if(numberDays<0):
+if numberDays<0:
     print "Fecha Incorrecta"
     exit()  
 
